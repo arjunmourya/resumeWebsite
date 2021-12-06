@@ -1,0 +1,99 @@
+$yellow-1:#FAC24F;
+$yellow-2:#F6D155;
+$skyblue:skyblue;
+$darkblue:#3F51B5;
+$blue-1:#66CCFF;
+$blue-2:#0099CC;
+$pink-1:#FF4081;
+$bg-color-1:#F5F5F5;
+$grey-1:#6c757d;
+
+.lp-container {
+    
+    padding-top: 0.5rem;
+    margin: 0px -0.5rem 0px -0.5rem;
+    .subdiv {
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+        .section-title{
+            letter-spacing: 0;
+            line-height: 25px;
+            font-size: 16px;
+            color:#000000;
+            border-bottom:1px solid #c6c6c6;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        .section-content{
+            color: #5c5c5c;
+            font-size: 12px;
+            letter-spacing: 0;
+            .icon-container {
+                background-color: #322d66;
+                border-radius: 999px;
+                width: 20px;
+                height: 20px;
+                padding-left: 5px;
+                padding-top: 2px;
+                .social-media-icon{
+                    color: rgba(255, 255, 255, 1);
+                    font-size:10px;
+                    padding-left: 1px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+    .card-deck .card {
+        margin-right: 4px;
+        margin-bottom: 0;
+        margin-left: 3px;
+        border-radius: 12px;
+        //background-color: $bg-color-1;
+        .card-header{
+            letter-spacing: 0;
+            line-height: 32px;
+            font-size: 14px;
+            font-weight: 500;
+            color:$grey-1;            
+            text-transform: uppercase;
+            background-color: $blue-1;
+            -webkit-background-clip:padding-box; 
+            -moz-background-clip:padding; 
+            background-clip:padding-box;
+            border-bottom: none;
+            background-clip: padding-box; // to remove the bleeding/leaking of color on the border-radius
+        }
+        .card-title {
+            letter-spacing: 0;
+            line-height: 10px;
+            font-size: 13px;
+            color:#000000;            
+            text-transform: capitalize;
+            margin-bottom: 5px;
+        }
+        .card-text{
+            color: #5c5c5c;
+            font-size: 12px;
+            letter-spacing: 0;
+        }
+    }
+}
+.lp-header {
+    background-color: $blue-2;    
+    padding: 0 10px 0 10px;
+    height:84px;
+    .name {
+        text-align: justify;
+        text-transform: uppercase;        
+        color:#FFFFFF;
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
+
+
+

@@ -4,11 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScaffoldDefaultComponent } from './default/scaffold-default/scaffold-default.component';
+import { TimelineComponent } from './container/timeline/timeline.component';
+import { HeaderComponent } from './main-header/header/header.component';
+import { LandingpageComponent } from './container/landingpage/landingpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScaffoldDefaultComponent
+    ScaffoldDefaultComponent,
+    TimelineComponent,
+    HeaderComponent,
+    LandingpageComponent
   ],
   imports: [
     BrowserModule,
